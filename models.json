@@ -1,0 +1,14 @@
+{
+  "qwen25-3b": {
+    "description": "Qwen2.5 3B Instruct - Q4_K_M",
+    "url": "https://huggingface.co/bartowski/Qwen2.5-3B-Instruct-GGUF/resolve/main/Qwen2.5-3B-Instruct-Q4_K_M.gguf",
+    "filename": "Qwen2.5-3B-Instruct-Q4_K_M.gguf",
+    "context": 2048
+  },
+  "custom": {
+    "description": "Custom GGUF model",
+    "url": "REPLACE_WITH_DIRECT_GGUF_DOWNLOAD_URL",
+    "filename": "my-model.gguf",
+    "context": 2048
+  }
+}
