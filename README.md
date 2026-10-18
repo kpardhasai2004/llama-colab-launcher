@@ -11,46 +11,6 @@ It automates dependency installation, builds `llama.cpp`, downloads your selecte
 
 No Gradio required. No separate frontend to build.
 
-## ✨ Features
-
-- 🚀 **One-command launch** — start your model directly from a Colab cell.
-- 🧠 **GGUF model support** — run compatible GGUF models supported by `llama.cpp`.
-- 💬 **Native chat interface** — use the built-in `llama.cpp` Web UI.
-- 🔗 **Public access** — access the interface through a Cloudflare Quick Tunnel.
-- 📦 **Automatic setup** — install required system packages and build `llama.cpp`.
-- 📥 **Automatic model download** — download the configured GGUF model.
-- ⚡ **Model caching** — reuse downloaded models in the same Colab runtime.
-- 🔄 **Easy model switching** — configure multiple models in `models.json`.
-- ⚙️ **Configurable inference** — adjust context size, CPU threads, and port.
-- 🖥️ **CPU-focused** — designed for Colab CPU runtimes without requiring a GPU.
-
-## 🛠️ How It Works
-
-```text
-Google Colab Notebook
-        |
-        v
-   setup.py Launcher
-        |
-        +---- Install Dependencies
-        |
-        +---- Build llama.cpp
-        |
-        +---- Download GGUF Model
-        |
-        v
-   llama-server
-        |
-        v
-  Built-in Web UI
-        |
-        v
- Cloudflare Quick Tunnel
-        |
-        v
-  Open Chat in Browser
-```
-
 ## 🚀 Quick Start
 
 ### 1. Open Google Colab
@@ -185,6 +145,48 @@ llama-colab-launcher/
 ├── models.json    # Model URLs and configurations
 └── README.md      # Project documentation
 ```
+
+## ✨ Features
+
+- 🚀 **One-command launch** — start your model directly from a Colab cell.
+- 🧠 **GGUF model support** — run compatible GGUF models supported by `llama.cpp`.
+- 💬 **Native chat interface** — use the built-in `llama.cpp` Web UI.
+- 🔗 **Public access** — access the interface through a Cloudflare Quick Tunnel.
+- 📦 **Automatic setup** — install required system packages and build `llama.cpp`.
+- 📥 **Automatic model download** — download the configured GGUF model.
+- ⚡ **Model caching** — reuse downloaded models in the same Colab runtime.
+- 🔄 **Easy model switching** — configure multiple models in `models.json`.
+- ⚙️ **Configurable inference** — adjust context size, CPU threads, and port.
+- 🖥️ **CPU-focused** — designed for Colab CPU runtimes without requiring a GPU.
+
+## 🛠️ How It Works
+
+```text
+Google Colab Notebook
+        |
+        v
+   setup.py Launcher
+        |
+        +---- Install Dependencies
+        |
+        +---- Build llama.cpp
+        |
+        +---- Download GGUF Model
+        |
+        v
+   llama-server
+        |
+        v
+  Built-in Web UI
+        |
+        v
+ Cloudflare Quick Tunnel
+        |
+        v
+  Open Chat in Browser
+```
+
+
 
 ## 🧰 Troubleshooting
 
