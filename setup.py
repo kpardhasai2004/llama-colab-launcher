@@ -1,4 +1,3 @@
-```python
 #!/usr/bin/env python3
 """
 llama-colab-launcher
@@ -383,4 +382,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
